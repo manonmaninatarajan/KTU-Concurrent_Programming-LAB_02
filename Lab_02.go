@@ -164,7 +164,7 @@ func Print(resultFile string, results []mydata) error {
 }
 
 func main() {
-	dataFile := "C:\\Users\\manon\\OneDrive\\Desktop\\mano_data1.txt"
+	dataFile := "C:\\Users\\user\\OneDrive\\Desktop\\lab_data1.txt"
 	resultFile := "Result_data.txt"
 	resultChan := make(chan mydata)
 	dataRequest := make(chan chan mydata)
